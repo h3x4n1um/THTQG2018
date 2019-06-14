@@ -6,7 +6,7 @@ int main(){
     for (int cnt = 1; cnt <= 25; ++cnt){
         /*var*/
         ifstream input(R"(..\input\Windows\)" + to_string(cnt) + ".in");
-        ofstream output(R"(..\output\bruteforce\)" + to_string(cnt) + ".out");
+        ofstream output(R"(..\output\ez_AC\)" + to_string(cnt) + ".out");
         int n, k;
         int a[105][105], b[105][105];
         bool correct[105][105];
